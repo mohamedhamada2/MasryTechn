@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC535252"
+    tools:context=".view.main.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/constr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="left"
+                android:orientation="horizontal"
+                >
+
+
+
+
+                <TextView
+                    android:id="@+id/search_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+
+                    android:layout_marginBottom="4dp"
+                    android:text="نقله"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/lemon"
+                    android:textSize="@dimen/_11ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/list"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_165sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:elevation="@dimen/_10sdp"
+                android:src="@drawable/logo"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constr" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_260sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="@dimen/_24sdp"
+                android:elevation="@dimen/_20sdp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"> <!-- shrink the first column of the layout-->
+
+
+                <!-- first row of the table layout-->
+                <LinearLayout
+                    android:id="@+id/firstRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <!-- first element of the first row-->
+
+                    <Button
+                        android:id="@+id/askNagla"
+                        android:layout_width="@dimen/_83sdp"
+                        android:layout_height="@dimen/_83sdp"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="@dimen/_30sdp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/bottonshape"
+                        android:fontFamily="@font/janna"
+                        android:text="طلب نقله"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_11ssp" />
+
+
+                    <Button
+                        android:id="@+id/my_info"
+                        android:layout_width="@dimen/_83sdp"
+                        android:layout_height="@dimen/_83sdp"
+
+                        android:layout_marginStart="@dimen/_30sdp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/bottonshape"
+                        android:fontFamily="@font/janna"
+                        android:text="المعلومات الشخصيه"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_11ssp"
+
+                        />
+
+                </LinearLayout>
+
+                <!-- first row of the table layout-->
+                <LinearLayout
+                    android:id="@+id/firstRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    >
+
+                    <!-- first element of the first row-->
+
+                    <Button
+                        android:id="@+id/mybag"
+                        android:layout_width="@dimen/_83sdp"
+                        android:layout_height="@dimen/_83sdp"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginEnd="@dimen/_30sdp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/bottonshape"
+                        android:fontFamily="@font/janna"
+                        android:text="محفظتى"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_11ssp" />
+
+
+                    <Button
+                        android:id="@+id/logout"
+                        android:layout_width="@dimen/_83sdp"
+                        android:layout_height="@dimen/_83sdp"
+
+                        android:layout_marginStart="@dimen/_30sdp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/bottonshape"
+                        android:fontFamily="@font/janna"
+                        android:text="تسجيل الخروج"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_11ssp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+
+                android:layout_height="@dimen/_310sdp"
+
+                android:layout_marginTop="@dimen/_77sdp"
+
+                android:elevation="@dimen/_10sdp"
+                android:src="@drawable/shape"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

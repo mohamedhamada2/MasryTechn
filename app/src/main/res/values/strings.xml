@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MasryTechn</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="noUserName">No User Name</string>
+    <string name="noPassword">No Password</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="noPhone">No Phone</string>
+    <string name="noEmail">No Email</string>
+</resources>

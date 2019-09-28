@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "946287444788",
+    "firebase_url": "https://nglah-600d4.firebaseio.com",
+    "project_id": "nglah-600d4",
+    "storage_bucket": "nglah-600d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946287444788:android:f2584f253d3fc32f581b61",
+        "android_client_info": {
+          "package_name": "com.nglah.masrytechn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946287444788-vdc55t7ic3evkgifs7niq0utjl3ng8ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nglah.masrytechn",
+            "certificate_hash": "0ddc2c6023ea4599be9650beb09c9bad1fe2f024"
+          }
+        },
+        {
+          "client_id": "946287444788-d27nqof47gm64pllthccue5ugja0nuld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCaBRu_xM0nv1ndUlW-UZYV9drcN9enr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946287444788-d27nqof47gm64pllthccue5ugja0nuld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
