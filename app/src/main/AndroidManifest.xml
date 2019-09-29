@@ -9,11 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.driver_data.Driver_data"
+        <activity android:name=".view.user_data.User_Data_Activity"
             android:parentActivityName=".view.main.MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".view.main.MainActivity">
-            </meta-data>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.main.MainActivity"></meta-data>
+        </activity>
+        <activity
+            android:name=".view.driver_data.Driver_data"
+            android:parentActivityName=".view.main.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.main.MainActivity"></meta-data>
         </activity>
         <activity android:name=".view.AllDeriver.AllDriverActivity" />
         <activity android:name=".view.forgetPassword.ForgetActivity" />
@@ -26,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.login.LoginActivity" />
-        <activity android:name=".view.main.MainActivity"></activity>
+        <activity android:name=".view.main.MainActivity" />
     </application>
 
 </manifest>
