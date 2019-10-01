@@ -22,7 +22,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".view.main.MainActivity"></meta-data>
         </activity>
-        <activity android:name=".view.AllDeriver.AllDriverActivity" />
         <activity android:name=".view.forgetPassword.ForgetActivity" />
         <activity android:name=".view.register.RegisterActivity" />
         <activity android:name=".view.login.SplashActivity">
@@ -34,6 +33,12 @@
         </activity>
         <activity android:name=".view.login.LoginActivity" />
         <activity android:name=".view.main.MainActivity" />
+        <activity android:name=".view.nglah_location.nglah_location" android:parentActivityName=".view.main.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.main.MainActivity"></meta-data>
+
+        </activity>
     </application>
 
 </manifest>
