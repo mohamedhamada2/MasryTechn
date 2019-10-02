@@ -9,18 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.user_data.User_Data_Activity"
+        <activity android:name=".view.Choose_City.Choose_City"
+                  android:parentActivityName=".view.main.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.main.MainActivity" /></activity>
+        <activity
+            android:name=".view.user_data.User_Data_Activity"
             android:parentActivityName=".view.main.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".view.main.MainActivity"></meta-data>
+                android:value=".view.main.MainActivity" />
         </activity>
         <activity
             android:name=".view.driver_data.Driver_data"
             android:parentActivityName=".view.main.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".view.main.MainActivity"></meta-data>
+                android:value=".view.main.MainActivity" />
         </activity>
         <activity android:name=".view.forgetPassword.ForgetActivity" />
         <activity android:name=".view.register.RegisterActivity" />
@@ -33,11 +39,12 @@
         </activity>
         <activity android:name=".view.login.LoginActivity" />
         <activity android:name=".view.main.MainActivity" />
-        <activity android:name=".view.nglah_location.nglah_location" android:parentActivityName=".view.main.MainActivity">
+        <activity
+            android:name=".view.nglah_location.nglah_location"
+            android:parentActivityName=".view.main.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".view.main.MainActivity"></meta-data>
-
+                android:value=".view.main.MainActivity" />
         </activity>
     </application>
 
