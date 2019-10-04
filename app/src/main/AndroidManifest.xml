@@ -9,11 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.Choose_City.Choose_City"
-                  android:parentActivityName=".view.main.MainActivity">
+        <activity android:name=".view.Accepted_Info.Accepted_info"></activity>
+        <activity android:name=".view.Car_Info.Car_info" />
+        <activity android:name=".view.Pick_Time.Pick_time" />
+        <activity
+            android:name=".view.Choose_City.Choose_City"
+            android:parentActivityName=".view.main.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".view.main.MainActivity" /></activity>
+                android:value=".view.main.MainActivity" />
+        </activity>
         <activity
             android:name=".view.user_data.User_Data_Activity"
             android:parentActivityName=".view.main.MainActivity">

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MasryTechn</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="noUserName">No User Name</string>
+    <string name="noPassword">No Password</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="noPhone">No Phone</string>
+    <string name="noEmail">No Email</string>
+    <string name="date_and_time_order">اختر موعد النقلة</string>
+    <string name="immediately">فورا</string>
+    <string name="later">لاحقا</string>
+    <string name="date">التاريح</string>
+    <string name="day">اليوم</string>
+    <string name="cancel">الغاء</string>
+    <string name="submit">اطلب</string>
+    <string name="time">الوقت</string>
+    <string name="about_order">تفاصيل اكثر عن النقلة</string>
+    <string name="car_info">معلومات الشاحنة</string>
+    <string name="car_type">نوع الشاحنة</string>
+    <string name="choose_car_image">اختر الصورة الرمزية للسيارة</string>
+    <string name="panal_id">كود الشاحنة</string>
+    <string name="maximum_weight">الوزن الاقصي</string>
+    <string name="driver_name">اسم السائق</string>
+    <string name="city">المدينة</string>
+    <string name="ok">موافق</string>
+</resources>

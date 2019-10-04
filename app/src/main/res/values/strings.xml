@@ -12,4 +12,21 @@
     <string name="name">Name</string>
     <string name="noPhone">No Phone</string>
     <string name="noEmail">No Email</string>
+    <string name="date_and_time_order">Choose Trip Time</string>
+    <string name="immediately">now</string>
+    <string name="later">later</string>
+    <string name="date">Date</string>
+    <string name="day">Day</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="time">Time</string>
+    <string name="about_order">More details about order</string>
+    <string name="car_info">Car Info</string>
+    <string name="car_type">Car Type</string>
+    <string name="choose_car_image">Choose Car Image</string>
+    <string name="panal_id">Panal Number</string>
+    <string name="maximum_weight">Maximum weight</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="city">City</string>
+    <string name="ok">OK</string>
 </resources>
