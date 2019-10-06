@@ -15,6 +15,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.nglah.masrytechn.R;
 import com.nglah.masrytechn.network.networkModel.login.LoginResponse;
+import com.nglah.masrytechn.view.Car_Info.Car_info;
 import com.nglah.masrytechn.view.forgetPassword.ForgetActivity;
 import com.nglah.masrytechn.view.main.MainActivity;
 import com.nglah.masrytechn.view.register.RegisterActivity;
@@ -104,7 +105,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @OnClick(R.id.forget)
     void forgetPassword() {
-        startActivity(new Intent(this, ForgetActivity.class));
+        startActivity(new Intent(this, Car_info.class));
     }
 
     private void showToast(String message) {
