@@ -29,4 +29,10 @@
     <string name="driver_name">Driver Name</string>
     <string name="city">City</string>
     <string name="ok">OK</string>
+    <string name="order_owner">Order Owner</string>
+    <string name="order_type">Order Type</string>
+    <string name="nglah_type">Nglah Type</string>
+    <string name="details">Nglah Details</string>
+    <string name="price">Price</string>
+    <string name="order_page">Order Page</string>
 </resources>
