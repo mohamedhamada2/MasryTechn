@@ -34,6 +34,14 @@
         android:textAlignment="center"
         android:textSize="@dimen/_36ssp"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
