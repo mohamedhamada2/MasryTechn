@@ -8,7 +8,7 @@
 
     </stroke>
     <solid android:color="@color/mdtp_white"/>
-    <corners android:radius="20dp"></corners>
+    <corners android:radius="@dimen/_18sdp"></corners>
 
 
 </shape>

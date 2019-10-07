@@ -16,6 +16,7 @@ import androidx.lifecycle.ViewModelProviders;
 import com.nglah.masrytechn.R;
 import com.nglah.masrytechn.network.networkModel.login.LoginResponse;
 import com.nglah.masrytechn.view.Car_Info.Car_info;
+import com.nglah.masrytechn.view.Pick_Time.Pick_time;
 import com.nglah.masrytechn.view.forgetPassword.ForgetActivity;
 import com.nglah.masrytechn.view.main.MainActivity;
 import com.nglah.masrytechn.view.register.RegisterActivity;
@@ -100,7 +101,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @OnClick(R.id.textView4)
     void createAccount() {
-        startActivity(new Intent(this, RegisterActivity.class));
+        startActivity(new Intent(this, Pick_time.class));
     }
 
     @OnClick(R.id.forget)
